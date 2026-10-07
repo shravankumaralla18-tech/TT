@@ -1,0 +1,98 @@
+{
+  "Tomato___Early_blight": {
+    "name": "Early blight",
+    "crop": "Tomato",
+    "description": "A fungal disease (Alternaria) that starts on older leaves and spreads upward in warm, humid weather.",
+    "symptoms": [
+      "Dark brown spots with concentric rings",
+      "Yellowing around spots",
+      "Lower leaves drop first"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "name": "Late blight",
+    "crop": "Tomato",
+    "description": "A fast-moving oomycete disease (Phytophthora infestans) that thrives in cool, wet conditions and can destroy a crop within days.",
+    "symptoms": [
+      "Water-soaked grey-green patches on leaves",
+      "White fuzzy growth under leaves in humid mornings",
+      "Brown firm lesions on fruit"
+    ]
+  },
+  "Tomato___healthy": {
+    "name": "Healthy",
+    "crop": "Tomato",
+    "description": "No visible disease signs on this leaf.",
+    "symptoms": [
+      "Even green colour",
+      "No spots or lesions"
+    ]
+  },
+  "Potato___Early_blight": {
+    "name": "Early blight",
+    "crop": "Potato",
+    "description": "A fungal disease (Alternaria solani) that is worse on stressed or nutrient-poor plants.",
+    "symptoms": [
+      "Dark target-like spots on older leaves",
+      "Leaf yellowing and drop",
+      "Reduced tuber size"
+    ]
+  },
+  "Potato___Late_blight": {
+    "name": "Late blight",
+    "crop": "Potato",
+    "description": "The disease behind the Irish famine; spreads rapidly in cool, damp weather and can infect tubers.",
+    "symptoms": [
+      "Dark, water-soaked leaf lesions",
+      "White mold at lesion edges",
+      "Reddish-brown rot inside tubers"
+    ]
+  },
+  "Potato___healthy": {
+    "name": "Healthy",
+    "crop": "Potato",
+    "description": "No visible disease signs on this leaf.",
+    "symptoms": [
+      "Even green colour",
+      "No spots or lesions"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "name": "Common rust",
+    "crop": "Corn (maize)",
+    "description": "A fungal disease (Puccinia sorghi) favoured by cool nights and high humidity.",
+    "symptoms": [
+      "Small reddish-brown pustules on both leaf sides",
+      "Pustules turn dark as the season progresses",
+      "Severe cases cause leaf drying"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "name": "Healthy",
+    "crop": "Corn (maize)",
+    "description": "No visible disease signs on this leaf.",
+    "symptoms": [
+      "Even green colour",
+      "No pustules or lesions"
+    ]
+  },
+  "Apple___Apple_scab": {
+    "name": "Apple scab",
+    "crop": "Apple",
+    "description": "A fungal disease (Venturia inaequalis) that overwinters in fallen leaves and infects in wet spring weather.",
+    "symptoms": [
+      "Olive-green to brown velvety spots on leaves",
+      "Scabby, cracked fruit",
+      "Early leaf drop"
+    ]
+  },
+  "Apple___healthy": {
+    "name": "Healthy",
+    "crop": "Apple",
+    "description": "No visible disease signs on this leaf.",
+    "symptoms": [
+      "Even green colour",
+      "No spots or lesions"
+    ]
+  }
+}

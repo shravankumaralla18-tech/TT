@@ -1,0 +1,46 @@
+from contextlib import asynccontextmanager
+from pathlib import Path
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+
+from app import database
+from app.config import settings
+from app.middleware.error_handler import register_exception_handlers
+from app.routes import advisory, auth, crop, disease, market, user
+
+
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    await database.connect()
+    yield
+    await database.close()
+
+
+Path(settings.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)
+
+app = FastAPI(
+    title="AI Crop Disease & Market Advisory API",
+    version="1.0.0",
+    lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+register_exception_handlers(app)
+
+app.mount("/uploads", StaticFiles(directory=settings.UPLOAD_DIR), name="uploads")
+
+for module in (auth, user, crop, disease, market, advisory):
+    app.include_router(module.router, prefix="/api")
+
+
+@app.get("/api/health", tags=["Health"])
+async def health():
+    return {"status": "ok"}

@@ -1,0 +1,154 @@
+{
+  "note": "Sowing and harvest months are indicative for sub-tropical/temperate climates. Adjust for your local calendar.",
+  "crops": [
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "Vegetable",
+      "sowing_months": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "harvest_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "ideal_temp_c": [
+        18,
+        29
+      ],
+      "water_need": "Medium",
+      "duration_days": 110
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "Vegetable",
+      "sowing_months": [
+        10,
+        11
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3
+      ],
+      "ideal_temp_c": [
+        15,
+        25
+      ],
+      "water_need": "Medium",
+      "duration_days": 95
+    },
+    {
+      "id": "maize",
+      "name": "Maize",
+      "category": "Cereal",
+      "sowing_months": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "harvest_months": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "ideal_temp_c": [
+        21,
+        30
+      ],
+      "water_need": "Medium",
+      "duration_days": 100
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "Fruit",
+      "sowing_months": [
+        12,
+        1,
+        2
+      ],
+      "harvest_months": [
+        8,
+        9,
+        10
+      ],
+      "ideal_temp_c": [
+        12,
+        24
+      ],
+      "water_need": "Medium",
+      "duration_days": 1460
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "category": "Cereal",
+      "sowing_months": [
+        6,
+        7
+      ],
+      "harvest_months": [
+        10,
+        11
+      ],
+      "ideal_temp_c": [
+        22,
+        32
+      ],
+      "water_need": "High",
+      "duration_days": 130
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "category": "Cereal",
+      "sowing_months": [
+        10,
+        11,
+        12
+      ],
+      "harvest_months": [
+        3,
+        4
+      ],
+      "ideal_temp_c": [
+        12,
+        25
+      ],
+      "water_need": "Low",
+      "duration_days": 130
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "category": "Vegetable",
+      "sowing_months": [
+        10,
+        11,
+        12
+      ],
+      "harvest_months": [
+        3,
+        4,
+        5
+      ],
+      "ideal_temp_c": [
+        13,
+        28
+      ],
+      "water_need": "Low",
+      "duration_days": 120
+    }
+  ]
+}

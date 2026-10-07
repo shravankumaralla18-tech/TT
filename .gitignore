@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# Node
+node_modules/
+dist/
+# Env + secrets
+.env
+# ML artefacts and datasets
+ai-model/dataset/raw/*
+ai-model/dataset/processed/*
+ai-model/dataset/test/*
+!ai-model/dataset/*/.gitkeep
+ai-model/models/*.keras
+ai-model/models/confusion_matrix.png
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+.DS_Store

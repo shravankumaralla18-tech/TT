@@ -1,0 +1,104 @@
+{
+  "tomato": {
+    "soil": "Well-drained loam rich in organic matter",
+    "ph_range": "6.0 - 6.8",
+    "spacing": "60 cm between rows, 45 cm between plants",
+    "irrigation": "Regular, even watering; drip preferred to keep leaves dry",
+    "fertilizer": "Balanced NPK based on a soil test; add calcium to reduce blossom-end rot",
+    "common_diseases": [
+      "Early blight",
+      "Late blight",
+      "Leaf mold"
+    ],
+    "tips": [
+      "Stake plants for airflow",
+      "Rotate away from potato and tomato for 2-3 years",
+      "Water at the base, early in the day"
+    ]
+  },
+  "potato": {
+    "soil": "Loose, well-drained sandy loam",
+    "ph_range": "5.2 - 6.4",
+    "spacing": "60 cm between rows, 20 cm between tubers",
+    "irrigation": "Moderate; avoid waterlogging, reduce before harvest",
+    "fertilizer": "Higher potassium helps tuber quality; follow soil test",
+    "common_diseases": [
+      "Early blight",
+      "Late blight"
+    ],
+    "tips": [
+      "Use certified disease-free seed tubers",
+      "Hill soil around stems to protect tubers",
+      "Destroy volunteer plants and cull piles"
+    ]
+  },
+  "maize": {
+    "soil": "Fertile, well-drained loam",
+    "ph_range": "5.8 - 7.0",
+    "spacing": "60-75 cm between rows, 20-25 cm between plants",
+    "irrigation": "Critical at tasseling and silking",
+    "fertilizer": "Nitrogen-heavy; split applications",
+    "common_diseases": [
+      "Common rust"
+    ],
+    "tips": [
+      "Plant resistant hybrids where rust is common",
+      "Keep fields weed-free early",
+      "Avoid late planting"
+    ]
+  },
+  "apple": {
+    "soil": "Deep, well-drained loam",
+    "ph_range": "6.0 - 7.0",
+    "spacing": "4-6 m between trees, depending on rootstock",
+    "irrigation": "Deep, infrequent watering; mulch to hold moisture",
+    "fertilizer": "Apply as per leaf and soil analysis",
+    "common_diseases": [
+      "Apple scab"
+    ],
+    "tips": [
+      "Rake and remove fallen leaves in autumn",
+      "Prune for open canopy and airflow",
+      "Choose scab-resistant varieties for new orchards"
+    ]
+  },
+  "rice": {
+    "soil": "Clay or clay loam that holds water",
+    "ph_range": "5.5 - 6.5",
+    "spacing": "20 cm x 15 cm (transplanted)",
+    "irrigation": "Keep shallow standing water through vegetative stage",
+    "fertilizer": "Split nitrogen across tillering and panicle initiation",
+    "common_diseases": [],
+    "tips": [
+      "Level the field for even water depth",
+      "Use healthy seedlings",
+      "Drain the field before harvest"
+    ]
+  },
+  "wheat": {
+    "soil": "Well-drained loam or clay loam",
+    "ph_range": "6.0 - 7.5",
+    "spacing": "20-22 cm between rows",
+    "irrigation": "Water at crown root, tillering, flowering and grain filling",
+    "fertilizer": "Basal phosphorus and potassium; split nitrogen",
+    "common_diseases": [],
+    "tips": [
+      "Sow within the recommended window",
+      "Use certified seed",
+      "Scout for rust in humid weather"
+    ]
+  },
+  "onion": {
+    "soil": "Light, well-drained sandy loam",
+    "ph_range": "6.0 - 7.0",
+    "spacing": "15 cm between rows, 10 cm between plants",
+    "irrigation": "Light, frequent early on; stop 2 weeks before harvest",
+    "fertilizer": "Sulphur-rich nutrition improves pungency and storage",
+    "common_diseases": [],
+    "tips": [
+      "Cure bulbs in shade before storage",
+      "Avoid heavy soils that cause bulb rot",
+      "Keep beds weed-free"
+    ]
+  }
+}

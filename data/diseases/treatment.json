@@ -1,0 +1,122 @@
+{
+  "Tomato___Early_blight": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period (protectant fungicides such as chlorothalonil or copper-based products are commonly used)"
+    ],
+    "organic": [
+      "Remove and destroy infected lower leaves",
+      "Mulch to stop soil splash",
+      "Copper or bio-fungicide sprays (Bacillus subtilis)"
+    ],
+    "preventive": [
+      "Rotate crops for 2-3 years",
+      "Stake and prune for airflow",
+      "Water at the base, not on leaves"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period (act quickly; systemic and protectant fungicides are often used in rotation)"
+    ],
+    "organic": [
+      "Remove and bag infected plants right away",
+      "Do not compost infected material"
+    ],
+    "preventive": [
+      "Plant resistant varieties",
+      "Avoid overhead irrigation",
+      "Scout daily during cool, wet spells"
+    ]
+  },
+  "Tomato___healthy": {
+    "chemical": [],
+    "organic": [],
+    "preventive": [
+      "Keep scouting weekly",
+      "Maintain even watering",
+      "Rotate crops each season"
+    ]
+  },
+  "Potato___Early_blight": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period"
+    ],
+    "organic": [
+      "Remove infected foliage",
+      "Keep plants well fed and watered to reduce stress"
+    ],
+    "preventive": [
+      "Use certified seed",
+      "Rotate with non-solanaceous crops",
+      "Destroy crop residue after harvest"
+    ]
+  },
+  "Potato___Late_blight": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period (act quickly; rotate fungicide groups)"
+    ],
+    "organic": [
+      "Destroy infected plants and cull piles",
+      "Cut vines 2 weeks before harvest to protect tubers"
+    ],
+    "preventive": [
+      "Plant certified seed",
+      "Hill soil high around stems",
+      "Avoid overhead irrigation"
+    ]
+  },
+  "Potato___healthy": {
+    "chemical": [],
+    "organic": [],
+    "preventive": [
+      "Keep scouting weekly",
+      "Hill soil around stems",
+      "Rotate crops each season"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period (usually only needed in severe, early outbreaks)"
+    ],
+    "organic": [
+      "Remove heavily infected plants in small plots"
+    ],
+    "preventive": [
+      "Plant resistant hybrids",
+      "Avoid very late planting",
+      "Scout from knee-high stage"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "chemical": [],
+    "organic": [],
+    "preventive": [
+      "Keep scouting weekly",
+      "Control weeds",
+      "Rotate crops each season"
+    ]
+  },
+  "Apple___Apple_scab": {
+    "chemical": [
+      "Check your local agriculture extension office for products approved for this crop, and follow the label for dose and waiting period (protectant fungicide programs start at green tip and continue through wet periods)"
+    ],
+    "organic": [
+      "Rake and destroy fallen leaves",
+      "Prune to open the canopy"
+    ],
+    "preventive": [
+      "Choose scab-resistant varieties",
+      "Avoid overhead irrigation",
+      "Clean up leaf litter every autumn"
+    ]
+  },
+  "Apple___healthy": {
+    "chemical": [],
+    "organic": [],
+    "preventive": [
+      "Keep scouting weekly",
+      "Prune for airflow",
+      "Clean up fallen leaves in autumn"
+    ]
+  }
+}
